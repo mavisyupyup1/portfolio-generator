@@ -1,6 +1,6 @@
-const inquirer = require ('inquirer');
 const fs =require('fs');
-const generatePage = require('./src/page-template.js')
+const inquirer = require ('inquirer');
+const generatePage = require('./src/page-template')
 
 const promptUser =() =>{
 return inquirer.prompt([
@@ -91,7 +91,7 @@ const promptProject =portfolioData =>{
     },
     {
       type:'checkbox',
-      name:'language',
+      name:'languages',
       message:'What did you build this project with? (check all that apply)',
       choices:['JavaScript','HTML','CSS','ES6','jQuery','Bootstrap','Node']
     },
