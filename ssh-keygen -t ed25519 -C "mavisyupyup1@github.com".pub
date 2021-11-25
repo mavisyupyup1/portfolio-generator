@@ -1,2 +1,0 @@
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDH+9UeAx2QrmzMEHYxLhLp6nnYMMzY6W3cf7qbM+hip mavisyupyup1@github.com
-ssh-keygen -t ed25519 -C your_e:q
